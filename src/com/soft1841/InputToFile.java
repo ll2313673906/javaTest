@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class InputToFile{
     public static void main(String[] args) throws IOException {
-        System.out.println("请输入：");
+        System.out.println("请你输入：");
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
         //方法1：通过字符流输出
